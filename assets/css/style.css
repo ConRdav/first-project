@@ -25,3 +25,18 @@ h1, h2 {
     float:left;
     font-size: 300%;
 }
+
+/* navigation bar */
+
+#menu {
+    font-size: 200%;
+    letter-spacing: 1px;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px; 
+    margin-top: 10px;
+}
