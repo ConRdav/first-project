@@ -59,7 +59,7 @@ h1, h2 {
     border-bottom: 5px solid black;
 }
 
-/* hero image */
+/* hero image and text */
 
 #image-text h2 {
     color: rgb(56, 53, 53);
@@ -90,6 +90,8 @@ h1, h2 {
     position: absolute;
 }
 
+/* Home page content */
+
 #community, #fitness, #competition {
     background-color: rgba(0, 0, 0, .6);  
     width: 200px;
@@ -102,16 +104,30 @@ h1, h2 {
     border-radius: 50%;
 }
 
+/* About page content */
+
 #about {
     font-size: 200%;
     font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    width:100%;
+    width:50%;
     height: 200px;
     top: 100px;
     position: absolute;
+    float:left;
+    clear:both;
+  
 }
+
+#about-image {
+    width:50%;
+    height: 100%;
+    top: 100px;
+    float: right;
+    overflow: hidden;
+    clear:both;
+}
+
 
 footer {
     position: fixed;
