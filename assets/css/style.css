@@ -9,7 +9,8 @@
 body{
     font-family: Montserrat, sans-serif;
     font-weight:400;
-    color: black;
+    color: rgb(160, 17, 136);
+    background-color: green;
 }
 
 /* headings and logo */
@@ -18,7 +19,7 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     text-transform:uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: rgb(160, 17, 136);
 }
 
 #logo {
@@ -60,9 +61,56 @@ h1, h2 {
 
 /* hero image */
 
+#image-text h2 {
+    color: black;
+}
+
+#community, #community h2, #fitness, #fitness h2, #wellbeing, #wellbeing h2 {
+    color: white;
+}
+
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center;
-    overflow: hidden;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
+    overflow: hidden;   
 }
+
+#image-text {
+    font-size: 200%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width:800px;
+    height: 200px;
+    
+    top: 80px;
+    left: 80px;
+    position: absolute;
+}
+
+#community, #fitness, #wellbeing {
+    background-color: rgba(0, 0, 0, .6);  
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    padding: 40px 0 0 20px;
+    text-align: center;
+    border:2px solid white;
+    border-radius: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.social > li {
+    display: inline;
+}
+
+
