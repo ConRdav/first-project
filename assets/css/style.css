@@ -114,8 +114,8 @@ h1, h2 {
     height: 200px;
     top: 100px;
     position: absolute;
-    float:left;
-    clear:both;
+    float: left;
+    clear: both;
   
 }
 
@@ -125,7 +125,7 @@ h1, h2 {
     top: 100px;
     float: right;
     overflow: hidden;
-    clear:both;
+    clear: both;
 }
 
 
@@ -140,4 +140,22 @@ footer {
     display: inline;
 }
 
+/* Contact Us form */
 
+.contact-form {
+    margin: 200px 10% 0 0;
+    color: #fff;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.contact-form > h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.text-input:hover {
+    border-color: #fff;
+}
