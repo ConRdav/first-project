@@ -28,15 +28,32 @@ h1, h2 {
 
 /* navigation bar */
 
-#menu {
+#nav {
     font-size: 200%;
     letter-spacing: 1px;
     float: right;
 }
 
-#menu li {
+#nav, #logo {
+    line-height: 50px;
+}
+
+#nav li {
     float: left;
     list-style-type: none;
     margin-right: 20px; 
     margin-top: 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav a:hover {
+    border-bottom: 5px solid black;
+}
+
+.active {
+    border-bottom: 5px solid black;
 }
