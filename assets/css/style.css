@@ -52,11 +52,11 @@ h1, h2 {
 }
 
 #nav a:hover {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid rgb(160, 17, 136);
 }
 
 .active {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid rgb(160, 17, 136);
 }
 
 /* hero image and text */
@@ -90,18 +90,35 @@ h1, h2 {
     position: absolute;
 }
 
-/* Home page content */
+/* Core Values content */
 
-#community, #fitness, #competition {
-    background-color: rgba(0, 0, 0, .6);  
+#community {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    float: left;
-    padding: 40px 0 0 20px;
-    text-align: center;
-    border:2px solid white;
-    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#fitness {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+#competition {
+    width: 200px;
+    height: 200px;
+   border: 1px solid white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.social > li {
+    display: inline;
 }
 
 /* About page content */
@@ -128,16 +145,18 @@ h1, h2 {
     clear: both;
 }
 
-
-footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    
+#times {
+    top: 200px;
+    float: left;
+    font-size: 150%;
+    text-align: left;
+    padding-top: 400px;
+   
 }
 
-.social > li {
-    display: inline;
+/* Gallery Page */
+#video {
+
 }
 
 /* Contact Us form */
@@ -149,6 +168,7 @@ footer {
     position: absolute;
     left: 10%;
     padding: 30px;
+    font-size: 200%;
 }
 
 .contact-form > h2 {
