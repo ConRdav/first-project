@@ -207,6 +207,24 @@ footer h3 {
   
 }
 
+#video {
+    position:relative;
+    padding-top:25%;
+    max-width:800px;
+    margin:0 auto;
+
+}
+
+#video iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+}
+
 /* Contact us form */
 
 #contact-image {
@@ -278,4 +296,11 @@ footer h3 {
 
 .text-input:hover {
     border-color: #fff;
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
