@@ -163,17 +163,16 @@ footer h3 {
     clear: both;
     height: auto; 
     width: auto; 
-    max-width: 500px; 
+    max-width: 600px; 
     max-height: 600px;
     margin-top: 200px;
-    margin-right: 100px;
+    padding-right: 50px;
 }
 
 #times {
     float: left;
     clear:both;
     padding-left: 20px;
-    padding-top: 50px;
     font-size: 120%;
     width: 100%;
     text-align: left;
