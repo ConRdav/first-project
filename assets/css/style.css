@@ -11,6 +11,8 @@ body{
     font-weight:400;
     color: black;
     background-color: grey;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 h1, h2 {
@@ -188,20 +190,51 @@ footer h3 {
 
 /* Gallery Page */
 
-
-/* Contact Us form */
-
-#contact-us {
-    background-color:#fff;
-    height: 800px;
-    width:50%;
+#photos {
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
     margin-top: 100px;
+    margin-bottom: 150px;
+    overflow: hidden;
+    max-height: 100%;
+    
+}
+
+#photos > img {
+    width: 100%;
+  
+}
+
+/* Contact us form */
+
+#contact-image {
+    height: 1000px;
+    width: 100%;
+
+    background-image: url('../images/hero-image.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    overflow: hidden;   
+}
+#contact-us {
+    background-color: rgb(18, 71, 18);
+    height: 600px;
+    width:50%;
+    margin-top: 150px;
     margin-left: 25%;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
 }
 
 #contact-us h2 {
     font-size: 400%;
+    color: white;
 }
 
 #contact-us p {
@@ -210,6 +243,8 @@ footer h3 {
     font-size: 150%;
     width: 100%;
     float: right;
+    padding-bottom: 20px;
+    color: white;
 }
 
 #fname, #lname, #email {
@@ -224,7 +259,7 @@ footer h3 {
 }
 
 .contact-form {
-    margin: 25% 25% 25% 25%;
+    margin: 25% 25% 40% 25%;
     color: black;
     position: absolute;
     left: 10%;
@@ -232,6 +267,8 @@ footer h3 {
     font-size: 100%;
     background-color: grey;
     width:25%;
+    top: 180px;
+    
 }
 
 .contact-form label {
