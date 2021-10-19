@@ -13,6 +13,12 @@ body{
     background-color: grey;
 }
 
+h1, h2 {
+    font-family: Bebas-Neue, sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
 /* header */
 
 header {
@@ -20,18 +26,15 @@ header {
     float: left; 
     top: 0;
     height: 10%;
-    background-color: green;
+    background-color: rgb(18, 71, 18);
     width: 100%;
 }
-h1, h2 {
-    font-family: Bebas-Neue, sans-serif;
-    text-transform:uppercase;
-    letter-spacing: 2px;
+
+header h2 {
     color: black;
 }
 
 #logo {
-    
     font-size: 100px;
     color: black;
 
@@ -75,17 +78,17 @@ h1, h2 {
 /* hero image and text */
 
 #hero-image {
-    height: 900px;
+    height: 1000px;
     width: 100%;
 
-    background-image: url('../images/hero-image.jpeg');
+    background-image: url('../images/hero-image\ 2.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
     overflow: hidden;   
-    box-shadow: inset 0 0 0 50vw rgba(194, 192, 193, 0.39);
+    box-shadow: inset 0 0 0 50vw rgba(143, 142, 142, 0.397);
 }
 
 #image-text {
@@ -99,8 +102,8 @@ h1, h2 {
     width:100%;
     height: 200px;
     
-    top: 50%;
-    left: 100px;
+    top: 70%;
+    left: 5%;
     position: absolute;
 }
 
@@ -128,7 +131,7 @@ footer {
     position: fixed;
     float: left; 
     bottom: 0;
-    background-color: green;
+    background-color: rgb(18, 71, 18);
     height: 10%;
     width: 100%;
     
@@ -157,32 +160,23 @@ footer {
 /* About page content */
 
 #about {
-    font-size: 200%;
+    font-size: 100%;
     font-family: Montserrat, sans-serif;
     letter-spacing: 1px;
-    width:50%;
-    height: 200px;
-    top: 100px;
+
+    top: 120px;
+    width: 50%;
     position: absolute;
     float: left;
     clear: both;
-}
-
-#about-image {
-    width:50%;
-    height: 100%;
-    top: 100px;
-    float: right;
-    overflow: hidden;
-    clear: both;
+    padding-left: 20px;
 }
 
 #times {
-    top: 200px;
     float: left;
-    font-size: 150%;
+    font-size: 100%;
     text-align: left;
-    padding-top: 400px;
+    margin-top: 50%;
 }
 
 /* Gallery Page */
