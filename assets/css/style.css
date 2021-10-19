@@ -30,10 +30,6 @@ header {
     width: 100%;
 }
 
-header h2 {
-    color: black;
-}
-
 #logo {
     font-size: 100px;
     color: black;
@@ -137,14 +133,20 @@ footer {
     
 }
 
+footer h3 {
+    text-align: center;
+}
+
 .social {
-    padding-top: 40px;
+    padding-top: 30px;
+    text-align: center;
 
 }
 
 .social > li {
     display: inline;
     letter-spacing: 1px;
+    
     
    
 }
@@ -174,6 +176,7 @@ footer {
 
 #times {
     float: left;
+    padding-left: 60%;
     font-size: 100%;
     width: 100%;
     text-align: left;
@@ -191,7 +194,7 @@ footer {
 /* Contact Us form */
 
 .contact-form {
-    margin: 200px 10% 0 0;
+    margin: 25% 25% 25% 25%;
     color: #fff;
     max-width: 400px;
     position: absolute;
