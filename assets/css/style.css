@@ -175,8 +175,14 @@ footer {
 #times {
     float: left;
     font-size: 100%;
+    width: 100%;
     text-align: left;
     margin-top: 50%;
+    letter-spacing: 1px;
+}
+
+#times td {
+    padding-left: 20px;
 }
 
 /* Gallery Page */
