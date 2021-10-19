@@ -38,20 +38,28 @@
 
     </header>
     <section>
-        <div>
+        <div id="contact-us">
+            <h2>Contact Us</h2>
+            <br>
+            <p>Have any questions that haven't been answered by this website then please fill in the form down below with you're question and we'll get back to you as soon as possible.</p>
+            <br>
+            <p>You can also use this to sign up your 5-a-side team or just contact us at 5-a-side@fakeemail.com.</p>
         <div>
         <form class="contact-form" method="POST" action="">
-            <h2>Contact Us</h2>
             <label for="fname">First Name</label>
             <input id="fname" class="text-input" type="text" name="first_name" required />
             <hr>
+            <br>
             <label for="lname">Last Name</label>
             <input id="lname" class="text-input" type="text"  name="last_name" required />
             <hr>
+            <br>
             <label for="email">Email Address</label>
             <input id="email" class="text-input" type="email" name="email_address" required/>
             <hr>
-            <input class="join-button"  type="submit" value="Submit"/>
+            <br>
+            <textarea id="question" cols="40" rows="10" name="question" placeholder="Your Question"></textarea>
+            <input class="submit"  type="submit" value="Submit"/>
         </form>
         </div>
         </div>

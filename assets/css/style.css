@@ -191,19 +191,53 @@ footer h3 {
 
 /* Contact Us form */
 
+#contact-us {
+    background-color:#fff;
+    height: 800px;
+    width:50%;
+    margin-top: 100px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#contact-us h2 {
+    font-size: 400%;
+}
+
+#contact-us p {
+    width: 25%;
+    margin-left: 150px;
+    font-size: 150%;
+    width: 100%;
+    float: right;
+}
+
+#fname, #lname, #email {
+    width: 200px;
+    float: right;
+    border: 1px solid black;
+    
+}
+#question {
+    border: 1px solid black;
+    float: right;
+}
+
 .contact-form {
     margin: 25% 25% 25% 25%;
-    color: #fff;
+    color: black;
     position: absolute;
     left: 10%;
     padding: 30px;
-    font-size: 200%;
+    font-size: 100%;
+    background-color: grey;
+    width:25%;
 }
 
-.contact-form > h2 {
-    color: #fff;
-    margin-bottom: 20px;
+.contact-form label {
+    float: left;
 }
+
 
 .text-input:hover {
     border-color: #fff;
