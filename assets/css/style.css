@@ -33,21 +33,23 @@ header {
 }
 
 #logo {
-    font-size: 100px;
+    font-size: 80px;
     color: white;
 
     float: left;
     padding-left: 10px;
+    padding-top: 5px;
 }
 
 /* navigation bar */
 
 #nav {
-    font-size: 200%;
+    font-size: 150%;
     letter-spacing: 1px;
     float: right;
     padding: 20px;
     color: white;
+    
 }
 
 #nav, #logo {
@@ -88,25 +90,29 @@ header {
 
     overflow: hidden;   
     box-shadow: inset 0 0 0 50vw rgba(143, 142, 142, 0.562);
+    
 }
 
-#image-text {
+.index-header {
+    font-size: 70px;
+    font-family: Bebas-Neue, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(15, 16, 112);
+    top: 40%;
+    left: 5%;
+    position: absolute;
+
+}
+
+.index-header-2 {
     font-size: 50px;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-
-    width:100%;
-    height: 200px;
-    
-    top: 70%;
-    left: 5%;
+    top: 50%;
+    left: 20%;
     position: absolute;
-}
-
-#image-text h2 {
-    color: rgb(61, 172, 172);
 }
 
 /* footer and social media links */
@@ -144,7 +150,7 @@ footer h3 {
 .social a {
     text-decoration: none;
     color: inherit;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
 
 }
@@ -152,7 +158,7 @@ footer h3 {
 /* About page content */
 
 #about {
-    font-size: 100%;
+    font-size: 90%;
     font-family: Montserrat, sans-serif;
     letter-spacing: 1px;
     top: 120px;
@@ -163,25 +169,31 @@ footer h3 {
     padding-left: 20px;
 }
 
-.about-image {
-    float: right;
-    clear: both;
-    height: auto; 
-    width: auto; 
-    max-width: 600px; 
-    max-height: 600px;
-    margin-top: 200px;
-    padding-right: 50px;
+#about-image {
+    height: 1000px;
+    width: 100%;
+
+    background-image: url('../images/football.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    overflow: hidden;   
+    box-shadow: inset 0 0 0 50vw rgba(143, 142, 142, 0.562);
 }
 
 #times {
-    float: left;
+    float: right;
     clear:both;
     padding-left: 20px;
-    font-size: 120%;
+    font-size: 100%;
     width: 100%;
     text-align: left;
     letter-spacing: 1px;
+    margin-top: 600px;
+    background-color: grey;
+    width: 45%;
 }
 
 #times td {
@@ -195,8 +207,7 @@ footer h3 {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-    margin-top: 100px;
-    margin-bottom: 150px;
+    margin-top: 90px;
     overflow: hidden;
     max-height: 100%;
     
@@ -241,24 +252,24 @@ footer h3 {
 }
 #contact-us {
     background-color: rgb(18, 71, 18);
-    height: 600px;
+    height: 500px;
     width:50%;
     margin-top: 150px;
     margin-left: 25%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom:50px;
 }
 
 #contact-us h2 {
-    font-size: 400%;
+    font-size: 300%;
     color: white;
 }
 
 #contact-us p {
     width: 25%;
     margin-left: 150px;
-    font-size: 150%;
+    font-size: 100%;
     width: 100%;
     float: right;
     padding-bottom: 20px;
@@ -266,7 +277,7 @@ footer h3 {
 }
 
 #fname, #lname, #email {
-    width: 200px;
+    width: 250px;
     float: right;
     border: 1px solid black;
     
@@ -280,12 +291,12 @@ footer h3 {
     margin: 25% 25% 40% 25%;
     color: black;
     position: absolute;
-    left: 10%;
     padding: 30px;
     font-size: 100%;
     background-color: grey;
-    width:25%;
-    top: 180px;
+    width:40%;
+    top: 160px;
+    right: 20px;
     
 }
 
@@ -294,13 +305,4 @@ footer h3 {
 }
 
 
-.text-input:hover {
-    border-color: #fff;
-}
-
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-}
+/* Media queries */
