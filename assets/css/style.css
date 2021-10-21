@@ -13,6 +13,7 @@ body{
     background-color: grey;
     height: 100%;
     overflow-y: hidden;
+   
 }
 
 h1, h2 {
@@ -202,46 +203,33 @@ footer h3 {
 
 /* Gallery Page */
 
-#photos {
-    clear:both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    margin-top: 10%;
-    overflow: hidden;
-    max-height:max-content;
-    z-index: 1;
-    background-color: green;
+.gallery-body {
+    background-color: rgb(10, 94, 10);
+}
+
+.fling-minislide {
+    width:90%; 
+    max-height:100%; 
+    left:5%;
+    top: 150px;
+    padding-bottom: 60%;
+    overflow:hidden; 
+    position:fixed;
+    border: 2px solid black;
     
 }
 
-#photos > img {
-    width: 100%;
-  
-}
+.fling-minislide img{ position:absolute; animation:fling-minislide 35s infinite; opacity:0; width: 100%; height: auto;}
 
-#video {
-    position:relative;
-    padding-top:25%;
-    max-height: 500px;
-    max-width:500px;
-    margin:0 auto;
-    z-index: 2;
-    bottom: 700px;
-    border: 3px solid black;
-
-}
-
-#video iframe {
-    position:absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height:100%;
-    width:100%;
-}
-
+@keyframes fling-minislide{25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(7){animation-delay:30s;}
+.fling-minislide img:nth-child(6){animation-delay:25s;}
+.fling-minislide img:nth-child(5){animation-delay:20s;}
+.fling-minislide img:nth-child(4){animation-delay:15s;}
+.fling-minislide img:nth-child(3){animation-delay:10s;}
+.fling-minislide img:nth-child(2){animation-delay:5s;}
+.fling-minislide img:nth-child(1){animation-delay:0s;}
+ 
 /* Contact us form */
 
 #contact-image {
@@ -315,7 +303,9 @@ footer h3 {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) 
-   
+   {
+
+   }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
