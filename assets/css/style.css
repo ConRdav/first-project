@@ -203,10 +203,6 @@ footer h3 {
 
 /* Gallery Page */
 
-.gallery-body {
-    background-color: rgb(10, 94, 10);
-}
-
 .fling-minislide {
     width:90%; 
     max-height:100%; 
