@@ -116,7 +116,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: whitesmoke;
-    top: 50%;
+    top: 60%;
     left: 15%;
     position: absolute;
 }
@@ -156,6 +156,7 @@ footer h3 {
     color: inherit;
     font-size: 20px;
     padding: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -353,17 +354,27 @@ footer h3 {
      }
      
      .index-header-2 {
-         top: 50%;
+         top: 60%;
          font-size: 30px;
          
      }
+
+     /* footer */
+
+     .social a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 15px;
+        padding: 5px;
+    
+    }
 }
 /* For small screen sizes 550px and down */
 @media screen and (max-width: 550px) {
     /* Header and navigation bar */
 
     #logo {
-        font-size: 40px;
+        font-size: 50px;
         color: white;
         clear: right;
         float: left;
@@ -383,7 +394,8 @@ footer h3 {
     .index-header {
         top: 40%;
         font-size: 40px;
-        text-align: center;
+        text-align: left;
+
         
      }
 
@@ -397,40 +409,17 @@ footer h3 {
 
     /* footer and social media links */
 
-footer {
-    position: fixed;
-    float: left; 
-    bottom: 0;
-    background-color: rgb(18, 71, 18);
-    height: 10%;
-    width: 100%;
-    color: white;
-    
-}
-
 footer h3 {
     text-align: center;
     font-size: smaller;
     
 }
 
-.social {
-    padding-top: 10px;
-    text-align: center;
-
-}
-
-.social > li {
-    display: inline;
-    letter-spacing: 1px;
-
-}
-
 .social a {
     text-decoration: none;
     color: inherit;
     font-size: 10px;
-    padding: 10px;
+    padding: 5px;
 
 }
 
@@ -440,7 +429,7 @@ footer h3 {
 @media screen and (max-width: 400px) {
 
     #logo {
-        font-size: 30px;
+        font-size: 40px;
         color: white;
         clear: right;
         float: left;
