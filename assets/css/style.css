@@ -312,9 +312,10 @@ footer h3 {
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) 
-   {
-/* About page content */
+@media screen and (max-width: 1200px) {
+
+    /* About page content */
+
 #times {
     margin-top: 50%;
 }
@@ -337,6 +338,7 @@ footer h3 {
 }
 
 /* About page content */
+
 #times {
     margin-top: 70%;
 }
@@ -377,6 +379,7 @@ footer h3 {
     }
 
     /* About page content */
+
     #about{
         font-size: 80%;
     
@@ -387,9 +390,10 @@ footer h3 {
 }
 /* For small screen sizes 550px and down */
 @media screen and (max-width: 550px) {
+   
     /* Header and navigation bar */
 
-    #logo {
+ #logo {
         font-size: 50px;
         color: white;
         clear: right;
@@ -399,7 +403,7 @@ footer h3 {
         padding-bottom: 5px;
     }
     
-    #nav {
+#nav {
         float: right;
         margin-bottom: 30px;
         line-height: 10px;
@@ -411,16 +415,14 @@ footer h3 {
         top: 40%;
         font-size: 40px;
         text-align: left;
-
-        
+ 
      }
 
-     .index-header-2 {
+.index-header-2 {
         top: 55%;
         font-size: 20px;
         text-align: center;
-       
-        
+         
     }
 
     /* footer and social media links */
@@ -432,8 +434,6 @@ footer h3 {
 }
 
 .social a {
-    text-decoration: none;
-    color: inherit;
     font-size: 10px;
     padding: 5px;
 
@@ -453,7 +453,7 @@ footer h3 {
 }
 
 /* For small screen sizes 400px and down */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px){
 
     #logo {
         font-size: 30px;
@@ -478,8 +478,7 @@ footer h3 {
         top: 60%;
         font-size: 20px;
         text-align: center;
-       
-        
+           
     }
 
 /* Footer */
@@ -491,10 +490,12 @@ footer h3 {
     
     }
 
+
     .social a {
-        color: inherit;
         font-size: 30%;
-    
+        padding:0;
+        margin-bottom: 20%;
+
 }
 
 #about{
@@ -505,4 +506,5 @@ footer h3 {
 #times {
     margin-top: 80%;
     font-size: 50%;
+}
 }
