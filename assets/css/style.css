@@ -100,7 +100,7 @@ header {
     letter-spacing: 1px;
     color: whitesmoke;
     top: 40%;
-    left: 15%;
+    left: 5%;
     position:absolute;
     text-align: center;
 
@@ -159,34 +159,46 @@ footer h3 {
 
 /* About page content */
 
-#about {
+#about{
     font-size: 90%;
     font-family: Montserrat, sans-serif;
     letter-spacing: 1px;
     top: 120px;
-    width: 50%;
+    width: 70%;
     position: absolute;
-    float: left;
     clear: both;
     padding-left: 20px;
+    text-align: left;
 }
-
+#about h2 {
+    border-bottom: 2px solid white;
+    width:fit-content;
+}
 
 #times {
     float: right;
     clear:both;
-    padding-left: 20px;
     font-size: 100%;
-    width: 50%;
+    width: 80%;
+    max-height: fit-content;
     text-align: left;
     letter-spacing: 1px;
-    margin-top: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 65%;
+    padding-left: 20px;
     background-color: grey;
-    margin-right: 30%;
+    border: 2px solid black;
 }
+
+#times h2 {
+    text-align: center;
+}
+
 
 #times td {
     padding-left: 20px;
+    
 }
 
 /* Gallery Page */
@@ -237,14 +249,14 @@ footer h3 {
 }
 
 .signup-form {
-    margin: 50px 10% 0 0;
+    margin: 20% 20% 20% 20%;
     color: #fff;
     background-color: rgba(39, 100, 47, 0.658);
-    max-width: 400px;
+    max-width: 60%;
+    max-height: 60%;
     position: absolute;
-    left: 35%;
-    padding: 30px;
-    top:10%;
+    padding: 20px;
+    top: 0;
 }
 
 .signup-form > h2 {
