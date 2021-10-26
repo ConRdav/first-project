@@ -314,7 +314,13 @@ footer h3 {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) 
    {
-   }
+/* About page content */
+#times {
+    margin-top: 50%;
+}
+
+}
+
 
 
 
@@ -330,12 +336,13 @@ footer h3 {
     left: 0;
 }
 
+/* About page content */
+#times {
+    margin-top: 70%;
+}
 
 }
  
-
-  
-
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
@@ -368,6 +375,15 @@ footer h3 {
         padding: 5px;
     
     }
+
+    /* About page content */
+    #about{
+        font-size: 80%;
+    
+    }
+    #times {
+    margin-top: 80%;
+}
 }
 /* For small screen sizes 550px and down */
 @media screen and (max-width: 550px) {
@@ -423,13 +439,24 @@ footer h3 {
 
 }
 
+    /* About page content */
+    
+    #about{
+        font-size: 60%;
+
+    }
+
+    #times {
+        margin-top: 90%;
+    }
+
 }
 
 /* For small screen sizes 400px and down */
 @media screen and (max-width: 400px) {
 
     #logo {
-        font-size: 40px;
+        font-size: 30px;
         color: white;
         clear: right;
         float: left;
@@ -459,18 +486,23 @@ footer h3 {
 
     footer h3 {
         text-align: center;
-        font-size: x-small;
+        font-size: 20%;
+        top: 0;
     
     }
 
     .social a {
-        text-decoration: none;
         color: inherit;
-        font-size: 45%;
-        padding: 10px;
+        font-size: 30%;
     
-    }
+}
 
+#about{
+    font-size: 40%;
+    top: 50px;  
+}
 
-
+#times {
+    margin-top: 80%;
+    font-size: 50%;
 }
