@@ -56,7 +56,7 @@ header {
 }
 
 #nav, #logo {
-    line-height: 50px;
+    line-height: 20px;
 }
 
 #nav li {
@@ -354,7 +354,7 @@ footer h3 {
      }
      
      .index-header-2 {
-         top: 60%;
+         top: 55%;
          font-size: 30px;
          
      }
@@ -445,6 +445,15 @@ footer h3 {
         font-size: 45%;
         
     } 
+
+
+     .index-header-2 {
+        top: 60%;
+        font-size: 20px;
+        text-align: center;
+       
+        
+    }
 
 /* Footer */
 
