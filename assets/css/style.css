@@ -339,7 +339,7 @@ footer h3 {
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
     #nav {
-        float: left;
+        float: right;
         margin-left: 10px;
         margin-bottom: 30px;
         line-height: 10px;
@@ -347,7 +347,7 @@ footer h3 {
     } 
     .index-header {
         top: 40%;
-        font-size: 60px;
+        font-size: 50px;
         
      
      }
@@ -360,22 +360,119 @@ footer h3 {
 }
 /* For small screen sizes 550px and down */
 @media screen and (max-width: 550px) {
-    #nav {
+    /* Header and navigation bar */
+
+    #logo {
+        font-size: 40px;
+        color: white;
+        clear: right;
         float: left;
-        margin-left: 50px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #nav {
+        float: right;
         margin-bottom: 30px;
         line-height: 10px;
-        font-size: smaller;
+        font-size: small;
     
     } 
+
     .index-header {
         top: 40%;
         font-size: 40px;
+        text-align: center;
         
      }
 
      .index-header-2 {
-        top: 50%;
+        top: 55%;
         font-size: 20px;
+        text-align: center;
+       
         
     }
+
+    /* footer and social media links */
+
+footer {
+    position: fixed;
+    float: left; 
+    bottom: 0;
+    background-color: rgb(18, 71, 18);
+    height: 10%;
+    width: 100%;
+    color: white;
+    
+}
+
+footer h3 {
+    text-align: center;
+    font-size: smaller;
+    
+}
+
+.social {
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.social > li {
+    display: inline;
+    letter-spacing: 1px;
+
+}
+
+.social a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 10px;
+    padding: 10px;
+
+}
+
+}
+
+/* For small screen sizes 400px and down */
+@media screen and (max-width: 400px) {
+
+    #logo {
+        font-size: 30px;
+        color: white;
+        clear: right;
+        float: left;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #nav {
+        float: right;
+        margin-bottom: 30px;
+        line-height: 10px;
+        font-size: 45%;
+        
+    } 
+
+/* Footer */
+
+    footer h3 {
+        text-align: center;
+        font-size: x-small;
+    
+    }
+
+    .social a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 45%;
+        padding: 10px;
+    
+    }
+
+
+
+}
