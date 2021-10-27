@@ -2,6 +2,8 @@
 
 This website is for the people interested in the Unbelievable Tekkers 5-a-side league and who want to find out more information about it. What they will find on this website is the leagues core values that the league abide to which is a sense of community and competitive competition for all ages and backgrounds. This is useful for people when they are looking at what times different age groups play and for any up coming tournaments or events that they wish to be involved in.
 
+![Responsiveness Display](/assets/images/responsive.png)
+
 ## Features
 
 ### Existing Features
@@ -69,7 +71,11 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 - HTML
   - No errors were returned when passing through the official [W3C validator]
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]
+  - No errors were found when passing through the official [(Jigsaw) validator] - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fconrdav.github.io%2Ffirst-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+### Lighthouse Testing
+
+![Lighthouse](/assets/images/lighthouse.png)
 
 ### Unfixed Bugs
 
@@ -81,5 +87,16 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
   - From the source section drop-down menu, select the Main Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - 
+The live link can be found here - https://conrdav.github.io/first-project/
+
+## Credits 
+
+### Content 
+
+- The icon in the header was taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- 
+
 
