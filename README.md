@@ -31,7 +31,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
   - The about us page explains everything there is to know about unbelievable tekkers 5-a-side league. 
   - This user will see the benefits of joining unbelievable tekkers, structure of the league and the costs.
 
-  ![About](/assets/images/about.png)
+  ![About](/assets/images/about-page.png)
   
 
 - __League Timings section__
