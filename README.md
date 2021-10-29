@@ -56,7 +56,8 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 
   - This page will allow the user to ask any questions they may have and to get in contact with us direct to sign their team up to the league.
 
-  ![Contact](/assets/images/contact.png)
+  ![Contact](/assets/images/contact.png
+  )
  
  ### Features Left to Implement
 
