@@ -767,20 +767,21 @@ footer h3 {
         top: 60%;
         font-size: 20px;
         text-align: center;
+
            
     }
 
 /* Footer */
 
-    footer h3 {
-        text-align: center;
-        font-size: 0;
+footer h3 {
+    text-align: center;
+    font-size: 0;
         
         
-    }
+}
 
-    .social a {
-        font-size: 12px;
+.social a {
+    font-size: 12px;
        
 
 }
@@ -795,9 +796,48 @@ footer h3 {
 
 #times {
     font-size: 12px;
-    width: auto;
-    height:max-content;
+    width: 100%;
     margin: 700px auto 100px auto;
-   
 }
+   
+
+
+/* gallery */
+
+iframe {
+    width: 300px;
+    height: 200px;
+    margin: 20% auto;
+    
+}   
+
+.fling-minislide div {
+    animation: fling-minislide 35s infinite;
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 10% 2% auto;
+}
+
+.fling-minislide img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+/* contact page */
+
+.signup-form {
+  height: 100%;   
+}
+
+.join-button {
+    font-size: 80%; 
+    margin-top: 0;
+    height: 20px;
+    width: 40px;
+    padding: 0;
+}
+
 }
