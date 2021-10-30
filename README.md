@@ -99,7 +99,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 -Link found here: https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fconrdav.github.io%2Ffirst-project%2F
 
 ### Unfixed Bugs
-- The only unfixed bug found is on screen size 320x480px for the gallery page where the header and footer only shows half and looks pushed to the right. This only affects the gallery page all the other pages header and footer at this size work. 
+- The only unfixed bug found is on screen size 320x480px for the gallery page where the header and footer only shows half and looks pushed to the right. This only affects the gallery page all the other pages header and footer at this size work. The reason for this was the fling minislide so that has been removed for screen sizes less than 400px as it was affecting the running of the page.
 
 ## Deployment
 
