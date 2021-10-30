@@ -268,8 +268,6 @@ td {
      border: 2px solid black;
      display: block;
      margin: 0 auto;
-     
-   
  }
 
  .slideshow {
@@ -404,13 +402,115 @@ td {
 
 /* Media queries */
 
+/* For larger screens size 1600px and down */
+@media screen and (max-width: 1600px) {
+
+/* header */
+
+#logo {
+    font-size: 70px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#nav {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 25px;
+} 
+
+/* index page */ 
+
+.index-header {
+    top: 40%;
+    font-size: 90px;
+ }
+ 
+ .index-header-2 {
+     top: 60%;
+     font-size: 70px;   
+ }
+
+/* About page content */
+    
+
+#about {
+    font-size: 140%;
+    width: 100%;
+}
+
+#times {
+margin-top: 70%;
+font-size: 140%;
+}
+
+/* gallery page */
+
+.gallery { 
+    margin-top: 50%;
+    margin-bottom: 40%;
+  }
+  
+iframe {
+    width: 800px;
+    height: 600px;
+}   
+
+/* contact us page */
+
+.signup-form {
+    margin: 10% 20% 10% 20%;
+    height: 70%;
+    font-size: 110%; 
+}
+
+}
+
+
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    /* About page content */
+/* header */
+
+#logo {
+    font-size: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 25px;
+} 
+
+/* index page */ 
+
+.index-header {
+    top: 40%;
+    font-size: 80px;
+ }
+ 
+ .index-header-2 {
+     top: 60%;
+     font-size: 50px;   
+ }
+
+/* About page content */
+#about {
+    font-size: 130%;
+    width: 100%;
+}
+
 
 #times {
-    margin-top: 50%;
+    margin-top: 70%;
 }
 
 }
@@ -421,29 +521,67 @@ td {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
+/* header */
+
+
+#nav {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 20px;
+} 
+
+/* index page */ 
+
+.index-header {
+    top: 40%;
+    font-size: 70px;
+ }
+ 
+ .index-header-2 {
+     top: 60%;
+     font-size: 40px;   
+ }
+
+/* footer */
+
+  .social a {
+    font-size: 110%;
+    padding: 5px;
+
+}
+
 /* About page content */
 
+#about {
+    width: 100%;
+    font-size: 110%;
+}
 #times {
-    margin-top: 70%;
+    margin-top: 80%;
+    margin-bottom: 200px;
 }
 /* contact us page */
 
 .signup-form {
-    margin: 20% 20% 20% 20%;   
+    margin: 20% 20% 20% 20%;
+    font-size: 70%;   
 }
 }
  
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+  
+/* header */
     
-    #nav {
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 30px;
-        line-height: 10px;
-    
-    } 
+#logo {
+    font-size: 60px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
     .index-header {
         top: 40%;
         font-size: 50px;
@@ -460,7 +598,7 @@ td {
      /* footer */
 
      .social a {
-        font-size: 15px;
+        font-size: 100%;
         padding: 5px;
     
     }
@@ -468,12 +606,43 @@ td {
     /* About page content */
 
     #about{
-        font-size: 80%;
+        font-size: 105%;
         top:10%;
+        width: 100%;
+        
+        
     
     }
     #times {
-    margin-top: 80%;
+    margin-top: 95%;
+    margin-bottom: 200px;
+    font-size: 100%;
+}
+
+/* gallery page */
+
+.gallery { 
+    margin-top: 30%;
+    margin-bottom: 40%;
+  }
+
+  .responsive {
+    width: 49.99999%;
+    margin: 2px 0;
+    padding-top: 0;
+  }
+
+iframe {
+    width: 600px;
+    height: 400px;
+}   
+
+/* contact us page */
+
+.signup-form {
+    margin: 20% 20% 20% 20%;
+    font-size: 70%; 
+    height: 50%;  
 }
 
 }
@@ -562,24 +731,29 @@ footer h3 {
 
 /* For small screen sizes 400px and down */
 @media screen and (max-width: 400px){
+/* header */
 
     #logo {
-        font-size: 30px;
+        font-size:0;
         color: white;
         clear: right;
         float: left;
-        padding-left: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 0;
     }
     
     #nav {
         float: right;
-        margin-bottom: 30px;
-        line-height: 10px;
+        margin: 0 auto;
+        line-height: 20px;
         font-size: 12px;
+        padding: 0;
+        padding-left: 5px;
         
     } 
+
+    .index-header {
+        text-align: center;
+    }
 
 
      .index-header-2 {
@@ -593,27 +767,30 @@ footer h3 {
 
     footer h3 {
         text-align: center;
-        font-size: 12px;
-        top: 0;
-        padding-bottom: 0;
-    
+        font-size: 0;
+        
+        
     }
-
 
     .social a {
         font-size: 12px;
-        margin-bottom: 20px;
+       
 
 }
 
+/* about us page */
 #about{
-    font-size: 30%;
-    top: 50px; 
-
+    font-size: 12px;
+    width: 100%; 
+    padding: 0;
+    
 }
 
 #times {
-    margin: 90% 10% 5% 10%;
-    font-size: 40%;
+    font-size: 12px;
+    width: auto;
+    height:max-content;
+    margin: 700px auto 100px auto;
+   
 }
 }
