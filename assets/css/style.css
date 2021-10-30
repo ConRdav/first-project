@@ -709,6 +709,11 @@ footer h3 {
         font-size: 60%;
     }
 
+/* gallery */
+
+.responsive {
+    width: 100%;
+  }
 /* contact us page */
 
 .signup-form {
@@ -727,6 +732,8 @@ footer h3 {
 .join-button {
     font-size: 80%;   
 }
+
+
 }
 
 /* For small screen sizes 400px and down */
