@@ -31,7 +31,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
   - The about us page explains everything there is to know about unbelievable tekkers 5-a-side league. 
   - This user will see the benefits of joining unbelievable tekkers, structure of the league and the costs.
 
-  ![About](/assets/images/about-page.webp)
+  ![About](/assets/images/about.webp)
   
 
 - __League Timings section__
@@ -39,16 +39,18 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
   - This section will shows the user the day andtimings for different age groups leagues.
   - This section will be updated as these times change to keep the user up to date.
 
-  ![League timings](/assets/images/league-timings.webp)
+  ![League timings](/assets/images/times.webp)
 
 
 - __Gallery__
 
-  - The gallery will provide the user with slideshow of images showing action shots from 5-a-side football games.
+  - The gallery will provide the user with  images showing action shots from 5-a-side football games as well as a youtube video showing a compilation of 5-a-side goals to motivate them.
   - The slideshow is on a 5 second timer lasting for a total of 35s with 7 images. Its on a infinite loop with the images transitioning into one another.
   - This gallery will be updated as the league progresses with photos added at the end of each season.
 
- ![Slideshow](/assets/images/)
+ ![](/assets/images/gallery-1.webp)
+ ![](/assets/images/gallery-2.webp)
+ ![](/assets/images/gallery-3.webp)
 
 
 
@@ -63,6 +65,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 
 - Another feature I would like to implement in the future is a FAQ section to limit the amount of questions left unanswered for the user.
 - I would like to add a navigation system for the slideshow instead of it being on a loop.
+
 
 ## Testing 
 
