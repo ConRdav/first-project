@@ -2,7 +2,7 @@
 
 This website is for the people interested in the Unbelievable Tekkers 5-a-side league and who want to find out more information about it. What they will find on this website is the leagues core values that the league abide to which is a sense of community and competitive competition for all ages and backgrounds. This is useful for people when they are looking at what times different age groups play and for any up coming tournaments or events that they wish to be involved in.
 
-![Responsiveness Display](/assets/images/responsive.png)
+![Responsiveness Display](/assets/images/responsive.webp)
 
 ## Features
 
@@ -12,26 +12,26 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 
     - Navigation Bar featured on all four pages, allowing users to move smoothly through the different website pages and it is easy to navigate with.
 
-![Navigation bar](/assets/images/nav-bar.png)
+![Navigation bar](/assets/images/nav-bar.webp)
 
 - __Index Page__
 
   - The hero image and title draw the users attention to the fact that this website is for Unbelievable Tekkers 5-a-side league.
 
-![Index page](/assets/images/index-page.png)
+![Index page](/assets/images/index-page.webp)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Unblievable Tekkers. The links open up into new tabs improving the user experience.  
   - The footer is valuable to the user as it encourages them to follow Unbelievable Tekkers on all social media platforms to stay updated with our news.
-![Footer](/assets/images/footer.png)
+![Footer](/assets/images/footer.webp)
 
 - __About Us page__
 
   - The about us page explains everything there is to know about unbelievable tekkers 5-a-side league. 
   - This user will see the benefits of joining unbelievable tekkers, structure of the league and the costs.
 
-  ![About](/assets/images/about-page.png)
+  ![About](/assets/images/about-page.webp)
   
 
 - __League Timings section__
@@ -39,7 +39,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
   - This section will shows the user the day andtimings for different age groups leagues.
   - This section will be updated as these times change to keep the user up to date.
 
-  ![League timings](/assets/images/league-timings.png)
+  ![League timings](/assets/images/league-timings.webp)
 
 
 - __Gallery__
@@ -48,7 +48,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
   - The slideshow is on a 5 second timer lasting for a total of 35s with 7 images. Its on a infinite loop with the images transitioning into one another.
   - This gallery will be updated as the league progresses with photos added at the end of each season.
 
- ![Slideshow](/assets/images/slideshow.png)
+ ![Slideshow](/assets/images/)
 
 
 
@@ -56,7 +56,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 
   - This page will allow the user to ask any questions they may have and to get in contact with us direct to sign their team up to the league.
 
-  ![Contact](/assets/images/contact.png
+  ![Contact](/assets/images/contact.webp)
   )
  
  ### Features Left to Implement
@@ -76,7 +76,7 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 
 ### Lighthouse Testing
 
-![Lighthouse](/assets/images/lighthouse.png)
+![Lighthouse](/assets/images/lighthouse.webp)
 
 ### Unfixed Bugs
 
