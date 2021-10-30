@@ -64,10 +64,23 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
  ### Features Left to Implement
 
 - Another feature I would like to implement in the future is a FAQ section to limit the amount of questions left unanswered for the user.
-- I would like to add a navigation system for the slideshow instead of it being on a loop.
+- I would like to add a navigation system for the slideshow instead of it being on a loop however I would need use javascript to achieve this.
+
 
 
 ## Testing 
+
+![Responsiveness Display](/assets/images/responsive.webp)
+- The header and navigation bar is responsive on all screens. However the logo was removed on screen sizes 320x480px as the text was uneligble if it was kept.
+
+- The about us page is responsive and its style is similar on screen sizes. As shown in the image below.
+![Responsiveness About Page](/assets/images/responsive-about.webp)
+
+-The gallery page is responsive on all screen sizes apart from 320x480px in the image below it looks repsponsive but on the deployed site the header is pushed to the right hand side along with the footer.
+![Responsiveness Gallery Page](/assets/images/responsive-gallery.webp)
+
+- The contact us page is responsive on all screen sizes and there were no issues when trying to make it responsive.
+![Responsiveness Contact Page](/assets/images/responsive-contact.webp)
 
 
 ### Validator Testing 
@@ -81,8 +94,10 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 
 ![Lighthouse](/assets/images/lighthouse.webp)
 
-### Unfixed Bugs
+-Link found here: https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fconrdav.github.io%2Ffirst-project%2F
 
+### Unfixed Bugs
+- The only unfixed bug found is on screen size 320x480px for the gallery page where the header and footer only shows half and looks pushed to the right. This only affects the gallery page all the other pages header and footer at this size work. 
 
 ## Deployment
 
@@ -95,12 +110,20 @@ The live link can be found here - https://conrdav.github.io/first-project/
 
 ## Credits 
 
+- A big thanks to my mentor Anthony who helped guiding me through my first project.
+
 ### Content 
 
 - The icon in the header was taken from [Font Awesome](https://fontawesome.com/)
+- The fling minislide framework was taken from Hyde Design. [Hyde Design] (https://www.hyde-design.co.uk/joomla-bites/80-create-a-css-slideshow-no-javascript-required)
+-The sign up form used a similar framework from the Love Running walkthrough project.
+- The responsive image gallery was taken from W3 Schools (https://www.w3schools.com/css/css_image_gallery.asp).
 
 ### Media
 
-- 
+- The images for the responsive gallery were all taken from Shutterstock.
+- The images for the fling minislide were all from google images then compressed into WebP files. I take no credit for these images and are used for educational purposes only.
+
+
 
 
