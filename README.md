@@ -106,13 +106,14 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Main Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://conrdav.github.io/first-project/
 
 ## Credits 
 
 - A big thanks to my mentor Anthony who helped guiding me through my first project.
+
 
 ### Content 
 
@@ -125,6 +126,7 @@ The live link can be found here - https://conrdav.github.io/first-project/
 
 - The images for the responsive gallery were all taken from Shutterstock.
 - The images for the fling minislide were all from google images then compressed into WebP files. I take no credit for these images and are used for educational purposes only.
+-The youtube video was taken from Gilette UK and i take no credit for it. A link to their youtube channel - https://www.youtube.com/channel/UC0f7oNC5jYvzlgA06IxkqMA.
 
 
 
