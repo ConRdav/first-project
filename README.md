@@ -82,6 +82,8 @@ This website is for the people interested in the Unbelievable Tekkers 5-a-side l
 - The contact us page is responsive on all screen sizes and there were no issues when trying to make it responsive.
 ![Responsiveness Contact Page](/assets/images/responsive-contact.webp)
 
+-This website was tested on a Samsung A52S 5G mobile phone, Iphone 11, Ipad Air 2 and  where all aspects of the website were responsive.
+
 
 ### Validator Testing 
 

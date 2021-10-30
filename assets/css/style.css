@@ -670,7 +670,7 @@ iframe {
     /* Header and navigation bar */
 
  #logo {
-        font-size: 50px;
+        font-size: 40px;
         color: white;
         clear: right;
         float: left;
@@ -683,7 +683,7 @@ iframe {
         float: right;
         margin-bottom: 30px;
         line-height: 50px;
-        font-size: 16px;
+        font-size: 12px;
     
     } 
 
