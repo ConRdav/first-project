@@ -13,9 +13,6 @@ body {
     background-color: rgb(59, 59, 59);
     height: 100%;
     overflow: scroll;
-
-
-
 }
 
 h1,
@@ -83,7 +80,11 @@ header {
     border-bottom: 2px solid white;
 }
 
-/* hero image and text */
+/* index page hero image and text */
+
+#index-body {
+    overflow-y:hidden;
+}
 
 #hero-image {
     height: 1000px;
